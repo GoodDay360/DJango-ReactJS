@@ -16,7 +16,7 @@ environ.Env.read_env(Path.joinpath(BASE_DIR, '.env'))
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # settings.py
 
