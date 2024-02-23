@@ -28,11 +28,10 @@ DEBUG = True
 if DEBUG: 
     print("Running in mode: 'development'")
     SECRET_KEY = 'django-insecure-plijnge9rt9gc2n5ie(ky^0b#)hk5y1@7yw&4etuez3&=m_we$'
-    # WORKER_SERVED_SCOPE = "http://127.0.0.1:8000"
 else: 
     print("Running in mode: 'production'")
     SECRET_KEY = env("DJANGO_SECRET")
-    # WORKER_SERVED_SCOPE = "https://ngslibrary.fly.dev"
+
 
 DEBUG_PROPAGATE_EXCEPTIONS = True
 TASTYPIE_FULL_DEBUG = True
