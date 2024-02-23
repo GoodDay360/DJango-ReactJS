@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@300;400;500;600&family=Noto+Serif:wght@300;400;500;600;700&display=swap');
+
+html{
+    width: auto;
+    height: auto;
+}
+
+form{
+    margin: 0;
+}
+
+#root{
+    position: relative;
+    height: var(--view-height);
+    width: var(--view-width);
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+:root{
+    --font-khmer: 'Noto Serif Khmer', serif;
+    --font-noto-serif: 'Noto Serif', serif;
+    --custom-color-grey: rgb(96, 96, 96);
+}
+
+:not(html,body,#root,main)::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+:not(html,body,#root,main)::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+:not(html,body,#root,main)::-webkit-scrollbar-thumb {
+    background: #4A4A4A; 
+    border-radius: 8px;
+}
+
+:not(html,body,#root,main)::-webkit-scrollbar-thumb {
+    background: #4A4A4A; 
+}
+
+:not(html,body,#root,main):hover::-webkit-scrollbar-thumb {
+    background: #141414; 
+    border-radius: 8px;
+}

@@ -1,0 +1,10 @@
+body{
+    background: url(/static/media/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: var(--view-height);
+    width: var(--view-width);
+    overflow: hidden;
+}
+
