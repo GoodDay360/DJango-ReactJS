@@ -8,16 +8,6 @@ from frontend import views
 
 
 urlpatterns = [
-    path('favicon.ico/', views.favicon),
-    path('favicon.ico', views.favicon),
-    path('manifest.webmanifest/', views.manifest),
-    path('manifest.webmanifest', views.manifest),
-
     path('', views.App),
     re_path(r'^.*/$', views.App),
-
-    path('sw.js/', views.default_sw),
-    path('sw.js', views.default_sw),
-    path('firebase-messaging-sw.js/', views.firebase_messaging_sw),
-    path('firebase-messaging-sw.js', views.firebase_messaging_sw),
 ]
