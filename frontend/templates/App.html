@@ -15,17 +15,22 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="manifest" href="/manifest.webmanifest" >
-    <link rel="stylesheet" href="mystyle.css">
+
+    <link rel="stylesheet" type="text/css" href="/static/main.css/"/>
+
+
     <title>{{ title }}</title>
 
     <meta name="description" content=""/>
     <meta name="keywords" content="">
     <meta name="author" content="">
-
 </head>
 
-<body font>
+<body>
     {% csrf_token %}
-    {% comment %} <script src="{% static "frontend/App.js" %}"></script> {% endcomment %}
+    <div id="root">
+
+    </div>
+     <script src="{% static "frontend/App.js" %}"></script>
 </body>
 </html>
